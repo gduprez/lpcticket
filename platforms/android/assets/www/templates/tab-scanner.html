@@ -1,0 +1,18 @@
+<ion-view title="Scanner">
+  <ion-content class="has-header padding">
+  	<div class="row row-50"></div>
+	    <div class="card">
+		  	<div class="item item-divider">
+		    	{{friend.Nom}} {{friend.Prenom}}
+		  	</div>
+			<div class="item item-thumbnail-left">
+		    	<h2>{{status}}</h2>
+			    <p>Billet : {{friend.Billet}}</p>
+			    <p>Date: {{friend.Date}}</p>
+			    <p>Email : {{friend.Email}}</p>
+		    </div>
+	    </div>
+   </div>
+	<button ng-click="scan()" class="button button-full button-positive">Continuer</button>
+  </ion-content>
+</ion-view>
